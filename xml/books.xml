@@ -2,15 +2,15 @@
 <!DOCTYPE books SYSTEM "books.dtd">
 <books>
     <book>
-        <title name="Sample Title">Title Content</title>
-        <isbn no="ISBN-12345">ISBN Content 1</isbn>
+        <title name="Sample Title">Think and Grow rich</title>
+        <isbn no="ISBN-12345">0115</isbn>
         <zipcode>12345</zipcode>
-        <publish year="1995">Publish Content 1</publish>
-        <publish year="1995">Publish Content 2</publish>
+        <publish year="1995">1st publish</publish>
+        <publish year="1995">2nd publish</publish>
     </book>
     <book>
-        <isbn no="ISBN-67890">ISBN Content 2</isbn>
-        <author>Author Content</author>
-        <publish year="1995">Publish Content 3</publish>
+        <isbn no="ISBN-67890">2448</isbn>
+        <author>Robert Kiosaki</author>
+        <publish year="1995">3rd publish</publish>
     </book>
 </books>
