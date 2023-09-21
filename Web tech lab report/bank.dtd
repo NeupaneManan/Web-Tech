@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT bank [
+<!ELEMENT customer (customerId, name, address)>
+<!ELEMENT customerId (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT account (accountId, branchId, customerId, accountType, balance)>
+<!ELEMENT accountId (#PCDATA)>
+<!ELEMENT branchId (#PCDATA)>
+<!ELEMENT customerId (#PCDATA)>
+<!ELEMENT accountType (#PCDATA)>
+<!ELEMENT balance (#PCDATA)>
+]>
+
+<bank>
+    <customer>
+        <customerid>101</customerid>
+        <name>Ram</name>
+        <address>Inaruwa</address>
+    </customer>
+    <account>
+    <accountId>8001</accountId>
+    <branchId>90116</branchId>
+    <customerId>101</customerId>
+    <accountType>Saving</accountType>
+    <balance>100000</balance>
+    </account>

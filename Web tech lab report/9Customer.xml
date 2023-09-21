@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bank>
+    <customer>
+       <name>Manan Neupane</name>
+       <age>21</age> 
+       <address>Inaruwa</address>
+       <phnumber>9862910051</phnumber>
+    </customer>
+    <customer>
+        <name>Bhojraj Gautam</name>
+        <age>22</age>
+        <address>Itahari</address>
+        <phnumber>9841234567</phnumber>
+    </customer>
+</bank>
